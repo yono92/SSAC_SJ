@@ -67,6 +67,9 @@ https://www.w3schools.com/html/html_elements.asp
 ### HTML Attributes
 https://www.w3schools.com/html/html_attributes.asp
 
+### HTML Heaging
+https://www.w3schools.com/html/html_headings.asp
+
 ### HTML Paragraph
 https://www.w3schools.com/html/html_paragraphs.asp
 
@@ -107,5 +110,17 @@ https://www.w3schools.com/html/html_filepaths.asp
 - 단점 : 기준에 따라서 표시 방식이 매번 달라짐 
 - Ex) 파일(폴더) 경로 : html/html_filepaths.asp ,  ...  /html/html_filepaths.asp
 - 루트 상대 경로 /html/html_filepaths.asp
+
+### HTML Table
+https://www.w3schools.com/html/html_tables.asp
+
+table generator
+https://www.tablesgenerator.com/html_tables
+
+
+### HTML List
+https://www.w3schools.com/html/html_lists.asp
+
+중첩목록(Nested List) : 여러 수준(레벨)으로 구성된 목록
 
 
