@@ -279,3 +279,41 @@ https://www.w3schools.com/css/css_background.asp
 > 16진수 코드값 : #16진수숫자 6자리 (0~9,a~f)
 > 10진수 코드값: RGB(10진수숫자,10진수숫자,10진수숫자)
 > 10진수 코드갑 + 투명도 표시 : RGBA(10진수숫자, 10진수숫자,10진수숫자,0.0~1.0)
+
+### CSS Flexbox
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+> 박스 배치 제어를 위한 display: flex 속성 및 배치 관련 속성을 부모요소에 적용함
+> flex-direction 속성
+>
+> - 박스 배치 방향 제어
+> - 가로배치,세로배치 모두 제어가 가능함
+> - 가로배치가 기본 값
+
+### 반응형 웹
+
+> 반응형 웹, 적응형 웹
+> OSMU(one sourcs multi use) 여부로 반응형과 적응형을 구분
+> Web Front End에서의 OSMU의 기준은 HTML Source cod => Contents
+
+### Media Query
+
+> @media 키워드를 사용해서 break point를 설정을 하고, 그에 따른 독리된 코드 블럭을 실행할수 있게 하는 것
+> break point(변경정)
+
+```
+EX> pc 해상도: 1024px ~ 1920px phone 해상도 : 320px ~ 640px
+
+@media screen and (min-width:1024px) and (max-width:1920px){}
+@media screen and (min-width:320px) and (max-width:640px){}
+
+Ex) pc 해상도(기준) : 해상도 설정 하지 않음 / tablet 해상도 : ~900px / phone 해상도 : ~640px
+
+body{color:red;}
+
+@media screen and(max-width:900px){}
+
+@media screen and (max-width:640px){}
+
+```
