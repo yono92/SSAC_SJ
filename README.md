@@ -359,3 +359,23 @@ https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 > Elemnet의 특정 요소를 선택
 >
 > - .list-item:first-child(첫번째 요소 선택), .list-item:last-child(마지막 요소 선택)
+
+### Github 용어정리
+
+> repository : 저장소
+>
+> - local repository
+> - remote repository
+>
+> clone : 복제
+>
+> - remote repository를 local repository로 복제
+>
+> stagin: commit할 파일을 선택하는 것(<-> unstatging)
+> commit : staging된 파일의 업데이트를 Fix(확정)하는 것
+> push : commit된 snapshot(업데이트 완료된 상태)을 remote respository에 업로드(업데이트) 하는 것
+
+> pull : remore repository의 상태를 다운로드 하여 local repository의 상태를 업데이트 하는 것 (fetch+merge)
+> fetch : remote repository의 상태를 가져오기만 하는 것
+> merge : 가져온 업데이트된 상태들을 하나로 합치는 것
+> pull request : 각각의 다른 개발 업데이트 된 서로 다른 개발 내용을 remote repository 관리자가 moerge 하도록 요청하는 것
