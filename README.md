@@ -317,3 +317,37 @@ body{color:red;}
 @media screen and (max-width:640px){}
 
 ```
+
+\*\* 가운데 배치/정렬 방식
+
+> 가로방향
+>
+> text-align :center 텍스트, 인라인요소
+> margin-left, margin-right를 auto -가로길이가 정해진 블럭요소
+> justify-content:center - flex 박스 배치
+
+> 세로방향
+> align-items:center - flex 박스 배치
+> line-height : 텍스트
+
+### CSS display
+
+https://www.w3schools.com/cssref/pr_class_display.asp
+
+### 복합(조합) 선택자
+
+> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> div>p : > - 자식 선택자 : 자식요소만 선택
+
+### 가상 클래스
+
+> Element의 상태 구분
+>
+> - a:link
+> - aLvisited
+> - a:Lhover
+> - a:active
+
+> Elemnet의 특정 요소를 선택
+>
+> - .list-item:first-child(첫번째 요소 선택), .list-item:last-child(마지막 요소 선택)
