@@ -334,6 +334,14 @@ body{color:red;}
 
 https://www.w3schools.com/cssref/pr_class_display.asp
 
+### RWD Viewport
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+### Media Query
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
 ### 복합(조합) 선택자
 
 > div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
