@@ -17,7 +17,10 @@ if (a < 3) {
   console.log("<false");
 }
 
-if (a - 1) {
+let result = a < 3 ? "3<true" : "3<false";
+console.log(result);
+
+if (a - 4) {
   console.log("-true");
 } else {
   console.log("-false");
