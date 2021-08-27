@@ -4,11 +4,11 @@
 let name = "tom";
 
 function sumPrint() {
-  //Function Scope(함수 범위)
+  // Function Scope(함수 범위)
   let sum = 50;
 
   for (let i = 0; i < 3; i++) {
-    //Block Scope(블럭범위)
+    // Block Scope(블럭 범위)
     let msg = "Hello World";
 
     console.log(name);
@@ -16,19 +16,20 @@ function sumPrint() {
     console.log(msg);
   }
 
-  //함수 범위
+  // 함수 범위
   console.log(name);
   console.log(sum);
-  //console.log(msg);
+  // console.log(msg);
 }
 
-//전역 범위
+// 전역 범위
 console.log(name);
-//console.log(sum);
-//console.log(msg);
+// console.log(sum);
+// console.log(msg);
 
 // var : Global Scope, Function Scope 만 적용 가능
 
+// this
 let person = {
   name: "Jack",
   print: function () {
@@ -38,14 +39,17 @@ let person = {
 };
 
 person.print();
+console.log(person);
 
 console.log(this);
+
 let x = this;
 // x.alert("msg");
 
 function type() {
   console.log(this);
 }
+
 type();
 
-// this.alert("msg");
+// alert("msg");

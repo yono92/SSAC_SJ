@@ -1,3 +1,5 @@
+// 변수(let, const), if구문, 증가연산
+
 let a = 1;
 const b = 5;
 
@@ -17,7 +19,10 @@ if (a < 3) {
   console.log("<false");
 }
 
-if (a - 1) {
+let result = a < 3 ? "3<true" : "3<false";
+console.log(result);
+
+if (a - 4) {
   console.log("-true");
 } else {
   console.log("-false");
@@ -29,16 +34,22 @@ if (b >= 5 && b <= 10) {
   console.log("&&false");
 }
 
-if (b > 3) {
+if (!(b > 3)) {
   console.log("!true");
 } else {
   console.log("!false");
 }
 
-if (1 === "1") {
-  console.lot("===true");
+if (1 == "1") {
+  console.log("==true");
 } else {
-  console.log("===false");
+  console.log("==false");
+}
+
+if (1 === "1") {
+  console.log("==true");
+} else {
+  console.log("==false");
 }
 
 let c = 3;

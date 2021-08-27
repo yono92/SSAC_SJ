@@ -1,7 +1,8 @@
+// if, switch
+
 console.log(new Date().getDay());
 
 let day;
-
 switch (new Date().getDay()) {
   case 0:
     day = "일요일";
@@ -18,7 +19,6 @@ switch (new Date().getDay()) {
   default:
     day = "주 후반";
 }
-
 console.log(day);
 
 let day2;
@@ -31,7 +31,6 @@ if (new Date().getDay() === 0) {
 } else if (new Date().getDay() === 3) {
   day2 = "수요일";
 } else {
-  day2 = "주 후반";
+  day = "주 후반";
 }
-
 console.log(day2);
