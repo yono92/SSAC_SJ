@@ -223,6 +223,10 @@ table {
   color: #fff;
 }
 
+.tab {
+  display: none;
+}
+
 .group {
   display: flex;
   justify-content: center;
@@ -275,7 +279,7 @@ table {
 
 @media screen and (max-width: 900px) {
   .header {
-    height: auto;
+    height: 50px;
     /* flex-direction: column; */
     padding: 0 20px 10px;
     position: fixed;
@@ -292,17 +296,36 @@ table {
     text-align: center;
   }
   .gnb {
-    margin-top: 15px;
+    margin-top: 0;
+    position: absolute;
+    top: 50px;
+    right: -200px;
+    opacity: 0;
+    background-color: #ffffff;
+    width: 200px;
+    padding: 50px 30px 100px;
+    box-sizing: border-box;
+
+    transition: opacity 0.3s ease-out, right 0.3s ease-out;
   }
+
+  .gnb.active {
+    opacity: 1;
+    right: 0;
+  }
+
   .gnb-list {
     justify-content: center;
+    flex-direction: column;
   }
-  .gnb-list-item:first-child {
+  .gnb-list-item {
     margin-left: 0;
+    margin-bottom: 70px;
   }
 
   .hamburger-menu {
     display: block;
+    margin-top: 6px;
   }
 
   .section-heading {
@@ -317,9 +340,33 @@ table {
     display: none;
   }
 
+  .tab {
+    display: flex;
+    width: 340px;
+    margin: 30px auto;
+  }
+
+  .tab-item {
+    width: 33.333%;
+    background: #eeeeee;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .tab-item.active {
+    background: #17b7d4;
+    color: #ffffff;
+  }
+
   .group {
     flex-direction: column;
+    display: none;
   }
+
+  .group.active {
+    display: flex;
+  }
+
   .figure {
     margin: 10px auto;
   }

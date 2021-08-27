@@ -20,6 +20,13 @@ https://www.w3schools.com/css/css3_transitions.asp
 
 > Timing Function : 등속/가속/감속 속도 개념이 적용된 모션
 
+> motion 구현
+>
+> - 2가지 상태 표현 : 시작 상태/ 변형된 상태
+> - 2가지 상태 사이에 과정을 표현
+
+> motion 적용 시기를 제어 => javascript 로 제어
+
 ### CSS Position
 
 https://www.w3schools.com/css/css_positioning.asp
